@@ -88,7 +88,7 @@ CONF_STATE_ON = "state_on"
 # light
 CONF_BRIGHTNESS_LOWER = "brightness_lower"
 CONF_BRIGHTNESS_UPPER = "brightness_upper"
-CONF_COLOR = "color"
+CONF_COLOR = "colour_data"
 CONF_COLOR_MODE = "color_mode"
 CONF_COLOR_MODE_SET = "color_mode_set"
 CONF_COLOR_TEMP_MIN_KELVIN = "color_temp_min_kelvin"

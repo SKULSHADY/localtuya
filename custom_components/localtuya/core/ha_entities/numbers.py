@@ -926,6 +926,16 @@ NUMBERS: dict[str, tuple[LocalTuyaEntity, ...]] = {
             entity_category=EntityCategory.CONFIG,
         ),
     ),
+    "xktyd": (
+        LocalTuyaEntity(
+            id=DPCode.COUNTDOWN,
+            name="Timer",
+            icon="mdi:timer-outline",
+            device_class=NumberDeviceClass.DURATION,
+            entity_category=EntityCategory.CONFIG,
+            custom_configs=localtuya_numbers(0, 86400, 1, 1, UnitOfTime.SECONDS),
+        ),
+    ),
 }
 
 # Wireless Switch  # also can come as knob switch.

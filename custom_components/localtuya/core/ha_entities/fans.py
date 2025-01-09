@@ -78,6 +78,17 @@ FANS: dict[str, tuple[LocalTuyaEntity, ...]] = {
             ),
         ),
     ),
+    "xktyd": (
+        LocalTuyaEntity(
+            id=DPCode.FAN_SWITCH,
+            name="Rotation",
+            icon="mdi:orbit",
+            fan_speed_control=FAN_SPEED_DP,
+            custom_configs=localtuya_fan(
+                DIRECTION_FORWARD, DIRECTION_REVERSE, 1, 100, "disabled", "int"
+            ),
+        ),
+    ),
 }
 # Fan with Light
 FANS["fsd"] = FANS["fs"]

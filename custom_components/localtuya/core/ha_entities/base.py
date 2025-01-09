@@ -564,6 +564,7 @@ class DPCode(StrEnum):
     SPRAY_MODE = "spray_mode"  # Spraying mode
     SPRAY_VOLUME = "spray_volume"  # Dehumidifier
     STA = "sta"  # Ikuu SXSEN003PIR IP65 Motion Detector (Wi-Fi)
+    STAR_WORK_MODE = "star_work_mode"
     START = "start"  # Start
     STATUS = "status"
     STERILIZATION = "sterilization"  # Sterilization
